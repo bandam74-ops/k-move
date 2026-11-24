@@ -31,6 +31,7 @@
       <a href="#partners">취업처</a>
       <a href="#admission">모집·선발</a>
       <a href="#support">사후관리</a>
+      <a href="#gallery">갤러리</a>
       <a href="#contact" class="menu-cta">문의하기</a>
     </nav>
   </div>
@@ -425,17 +426,46 @@
   </div>
 </section>
 
-<!-- FACULTY -->
-<section id="faculty" class="section">
+<!-- GALLERY -->
+<section id="gallery" class="section">
   <div class="wrap">
     <div class="section-head">
-      <p class="kicker">07 · Faculty</p>
+      <p class="kicker">07 · Gallery</p>
+      <h2>활동 갤러리</h2>
+      <p class="sub">필리핀 어학연수부터 싱가포르·캐나다·홍콩 현지 방문까지, 2026년 과정의 현장을 담았습니다.</p>
+    </div>
+    <div class="g-filters" role="group" aria-label="지역 필터">
+      <button class="on" data-f="all">전체</button>
+      <button data-f="ph">필리핀</button>
+      <button data-f="sg">싱가포르</button>
+      <button data-f="ca">캐나다</button>
+      <button data-f="hk">홍콩</button>
+    </div>
+    <div class="g-grid" id="gGrid"></div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="사진 크게 보기">
+  <button class="lb-close" aria-label="닫기">×</button>
+  <button class="lb-prev" aria-label="이전 사진">‹</button>
+  <figure>
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-next" aria-label="다음 사진">›</button>
+</div>
+
+<!-- FACULTY -->
+<section id="faculty" class="section alt">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">08 · Faculty</p>
       <h2>교수진</h2>
       <p class="sub">태권도 실기·지도·경영 분야 박사급 교수진과 현장 전문가 25명, 필리핀 현지 어학강사 19명이 참여합니다.</p>
     </div>
     <div class="faculty-grid">
       <article class="prof lead-prof"><h4>박동영 <small>책임교수</small></h4><p>스포츠과학부 태권도전공 교수 · 경희대 스포츠산업경영 박사</p><span>태권도 지도 트레이닝 · AI 기반 전략·실무</span></article>
-      <article class="prof lead-prof"><h4>지호철 <small>책임교수</small></h4><p>스포츠과학부 태권도전공 교수 · 경희대 체육학 박사</p><span>태권도 지도 실습 · 글로벌 도장 운영실무</span></article>
+      <article class="prof"><h4>지호철</h4><p>스포츠과학부 태권도전공 교수 · 경희대 체육학 박사</p><span>태권도 지도 실습 · 글로벌 도장 운영실무</span></article>
       <article class="prof"><h4>오명진</h4><p>스포츠과학부장 · 고려대 체육학 박사</p><span>글로벌 태권도 지도실무 · 스포츠 응용실기</span></article>
       <article class="prof"><h4>한창효</h4><p>스포츠과학부 교수 · 세종대 이학 박사</p><span>스포츠 응용실기 · 도장 운영실무</span></article>
       <article class="prof"><h4>김정환</h4><p>체육지도자 · 성균관대 스포츠과학 박사</p><span>태권도 지도 실습 · 응용 실습</span></article>
